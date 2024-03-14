@@ -258,6 +258,105 @@ async def mention_allvc(client, message):
         pass
 
 
+MUSIC = [" **Main aadha te tu saara ve🤗🤗"" ",
+    " **Sohneya sohneya😗😗** ",
+    " **Tu jahan hai main wahan😘😘** ",
+    " **Tere bin main hoon hi kya🥲🥲** ",
+    " **Tere bin chehre se mere🤔🤔** ",
+    " **Udd jaaye rang ve😅😅** ",
+    " **Tujhko paane ke liye huM😁😁** ",
+    " **Roz mangein mannat ve🙈🙈** ",
+    " **Duniya to kya cheez hai yaara🙉🙉** ",
+    " **Thukra denge jannat ve😌😌** ",
+    " **Tujhko paane ke liye hum😌😌** ",
+    " **Roz mangein mannat ve🤫🤫** ",
+    " **Duniya to kya cheez hai yaara🤔🤔** ",
+    " **Thukra denge jannat ve😌😌** ",
+    " **Na parwah mainu apni aa😁😁** ",
+    " **Na parwah mainu duniya di👅👅** ",
+    " **Na parwah mainu apni aa😅😅** ",
+    " **Na parwah mainu duniya di👅👅** ",
+    " **Tere ton juda nahi kar sakdi🤬🤬** ",
+    " **Koyi taakat mainu duniya di😈😈** ",
+    " **Dooron aa jaave teri khushbu😎😎** ",
+    " **Akhan hun band taan vi vekh lawan😍😍** ",
+    " **Teri gali vich mera auna har roz😋😋** ",
+    " **Tera ghar jadon aave matha tek lawan😌😌** ",
+    " **Nirmaan tujhko dekh ke😏😏** ",
+    " **Aa jaave himmat ve😉😉** ",
+    " **Tujhko paane ke liye hum😊😊** ",
+    " **Roz mangein mannat ve😉😉** ",
+    " **Duniya to kya cheez hai yaara😌😌** ",
+    " **Thukra denge jannat ve😍😍** ",
+    " **Tujhko paane ke liye hum🤫🤫** ",
+    " **Roz mangein mannat ve😁😁** ",
+    " **Duniya to kya cheez hai yaara😏😏** ",
+    " **Thukra denge jannat ve😌😌** ",
+    " **SO MISS 😶😶** ",
+    " **KYA SOCHA APNE BAARE MAIN😆😆** ",
+    " **BADI MUSHKIL SE YEH SAB KARA H RE🥵🥵** ",
+    " **PAHLE PURA BOT HI KANG MAAR DIYA BUT🤫🤫** ",
+    " **WAHI ERROR AAYE JO AATE THE🥲🥲** ",
+    " **BUT TUMHARA HO CHUKA WALA BF😎😎** ",
+    " **AND FUTURE HUSBAND JO BANNE WALA THA WO BHOT SMART H RE😌😌** ",
+    " **ISS BAAR BOT BANAYA AND CHOTA SA EDIT KARA BAS😁😁** ",
+    " **AUR DEKO ABHI TUM USSI BOT SE YEH PADH PAA RHI😂😂** ",
+    " **HEHE BTW YEH CHORO MEKO NA TUMSE😶😶** ",
+    " **KUCH PUCHNA THA KI ME🤔🤔** ",
+    " **TUMHARE KABIL HU YA** ",
+    " **TUMHARE KABIL NHI😂💓** ",
+    " **AND EK AUR BAAT BOLNI THI KI😙😙** ",
+    " **I REALLY REALLY DEEPLY😙😙** ",
+    " **LOVE YOU FROM MY HEART TO YOUR HEAT AND MY SOUL ATTACHED BY YOUR SOUL CAN YOU BE MINE FOREVER😌😌❤️** ",
+]         
+
+
+@client.on(events.NewMessage(pattern="^/mtag ?(.*)"))
+async def mention_all(event):
+    chat_id = event.chat_id
+    if event.is_private:
+        return await event.respond(
+            "__This command can be used in groups and channels!__"
+        )
+
+    is_admin = False
+    try:
+        partici_ = await client(GetParticipantRequest(event.chat_id, event.sender_id))
+    except UserNotParticipantError:
+        is_admin = False
+    else:
+        if isinstance(
+            partici_.participant, (ChannelParticipantAdmin, ChannelParticipantCreator)
+        ):
+            is_admin = True
+    if not is_admin:
+        return await event.respond("𝐎𝐧𝐥𝐲 𝐀𝐝𝐦𝐢𝐧 𝐂𝐚𝐧 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐓𝐨 𝐀𝐥𝐥 𝐁𝐚𝐛𝐲...")
+    
+    if event.pattern_match.group(1):
+        return await event.respond("/mtag 👈 𝐓𝐲𝐩𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 𝐍𝐞𝐱𝐭 𝐓𝐢𝐦𝐞 𝐎𝐤 𝐅𝐨𝐫 𝐓𝐚𝐠𝐠𝐢𝐧𝐠..")
+    else:
+        mode = "text_on_cmd"
+        msg = event.pattern_match.group(1)
+        if msg is None:
+            return await event.respond(
+                "/mtag 👈 𝐓𝐲𝐩𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 𝐎𝐫 𝐑𝐞𝐩𝐥𝐲 𝐀𝐧𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞..."
+            )
+
+    spam_chats.append(chat_id)
+    async for usr in client.iter_participants(chat_id):
+        if not chat_id in spam_chats:
+            break
+        user_id = usr.id
+        mention_text = f"[{usr.first_name}](tg://user?id={user_id}) {random.choice(MUSIC)}"
+        await client.send_message(chat_id, mention_text)
+        time.sleep(5)
+        
+    try:
+        spam_chats.remove(chat_id)
+    except:
+        pass
+        
+
 
 @app.on_message(filters.command(["stoptagall", "canceltagall", "offtagall", "tagallstop", "stopvctag", "tagalloff"]))
 async def cancel_spam(client, message):
