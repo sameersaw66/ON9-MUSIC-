@@ -35,7 +35,7 @@
   <img src="https://graph.org/file/265edcea4b5fd02c189f0.jpg">
 </p>
 
-**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝐓𝚨𝐌𝚨𝐍𝐍𝚨 𝐑𝐎𝐁𝐎𝐓](https://t.me/TAMANNA_MUSIC_ROBOT)**
+**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝐓𝚨𝐌𝚨𝐍𝐍𝚨 𝐑𝐎𝐁𝐎𝐓](https://t.me/TAMANNA_MUSIC_ROBO_BOT)**
 
 
 
