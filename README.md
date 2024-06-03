@@ -15,11 +15,11 @@
 
 
 <h2 align="center">
-    ─「 𝐓𝚨𝐌𝚨𝐍𝐍𝚨 𝗠𝗨𝜹𝗜𝗖 」─
+    ─「 𝗢𝗡𝟵 𝗠𝗨𝜹𝗜𝗖 」─
 
 ★ 𝙷𝙴𝚁𝙾𝙺𝚄 + 𝚅𝙿𝚂 ★
 </h2>
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;♨️+𝙽𝙾+𝙷𝙴𝚁𝙾𝙺𝚄+𝙱𝙰𝙽+𝙸𝚂𝚂𝚄𝙴+𝙰𝙻𝚂𝙾+𝚅𝙿𝚂+𝙳𝙴𝙿𝙻𝙾𝚈+📍+𝙿𝚁𝙴𝚂𝙴𝙽𝚃;🎭+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+𝐓𝚨𝐌𝚨𝐍𝐍𝚨+𝐌𝐔𝐒𝐈𝐂+🎭">
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;♨️+𝙽𝙾+𝙷𝙴𝚁𝙾𝙺𝚄+𝙱𝙰𝙽+𝙸𝚂𝚂𝚄𝙴+𝙰𝙻𝚂𝙾+𝚅𝙿𝚂+𝙳𝙴𝙿𝙻𝙾𝚈+📍+𝙿𝚁𝙴𝚂𝙴𝙽𝚃;🎭+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+𝗢𝗡𝟵+𝐌𝐔𝐒𝐈𝐂+🎭">
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
@@ -32,10 +32,10 @@
 
 
 <p align="center">
-  <img src="https://graph.org/file/265edcea4b5fd02c189f0.jpg">
+  <img src="https://graph.org/file/363c90a975dcb78cb8899.jpg">
 </p>
 
-**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝐓𝚨𝐌𝚨𝐍𝐍𝚨 𝐑𝐎𝐁𝐎𝐓](https://t.me/TAMANNA_MUSIC_ROBO_BOT)**
+**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝗢𝗡𝟵 𝐑𝐎𝐁𝐎𝐓](https://t.me/@on9musicbot)**
 
 
 
