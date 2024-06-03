@@ -22,7 +22,7 @@ LOGGER_ID = int(getenv("LOGGER_ID"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("7493957405"))
+OWNER_ID = int(getenv("2095867247"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Silentsmile29/TamannaMusic",
+    "https://github.com/sameersaw66/ON9-MUSIC-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/l_B_P_C_l")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_UNOFFICIAL_ll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mr_editx")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/on9musicsupport")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -106,21 +106,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
+    "START_IMG_URL", "https://graph.org/file/363c90a975dcb78cb8899.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/e642e121a9d93e1ac13ca.jpg"
+    "PING_IMG_URL", "https://graph.org/file/363c90a975dcb78cb8899.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
-STATS_IMG_URL = "https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
-STREAM_IMG_URL = "https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/363c90a975dcb78cb8899.jpg"
+STATS_IMG_URL = "https://graph.org/file/363c90a975dcb78cb8899.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/363c90a975dcb78cb8899.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/363c90a975dcb78cb8899.jpg"
+STREAM_IMG_URL = "https://graph.org/file/363c90a975dcb78cb8899.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/363c90a975dcb78cb8899.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/363c90a975dcb78cb8899.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/363c90a975dcb78cb8899.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/363c90a975dcb78cb8899.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/363c90a975dcb78cb8899.jpg"
 
 
 def time_to_seconds(time):
