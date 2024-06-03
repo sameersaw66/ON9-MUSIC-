@@ -1,12 +1,12 @@
 {
-    "name": "𝐓𝚨𝐌𝚨𝐍𝐍𝚨 𝐌𝐔𝐒𝐈𝐂",
+    "name": "𝗢𝗡𝟵 𝐌𝐔𝐒𝐈𝐂",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/ebb0d85faab06c034ed4c.jpg",
+    "logo": "https://graph.org/file/363c90a975dcb78cb8899.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Tamanna",
+    "Candy",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
