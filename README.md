@@ -2,17 +2,6 @@
 <p align="center">
 🇮🇳 𝐕𝐈𝐒𝐈𝐓𝐎𝐑𝐒 🇮🇳
 
-<!--
-**Silentsmile29/Silentsmile29** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-
-<p align="center">
-    <b>ᴠɪsɪᴛᴏʀs</b><br>
- -->    <img align="middle" src="https://profile-counter.glitch.me/Silentsmile29/count.svg" />
-</p>
-
-
-
 
 <h2 align="center">
     ─「 𝗢𝗡𝟵 𝗠𝗨𝜹𝗜𝗖 」─
